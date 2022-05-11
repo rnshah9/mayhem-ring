@@ -1,0 +1,6 @@
+project: rnshah9/mayhem-ring
+target: ring
+
+cmds:
+  - cmd: /ring/bin/ring @@
+    filepath: /test.ring
