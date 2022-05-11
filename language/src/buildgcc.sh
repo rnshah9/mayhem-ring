@@ -8,5 +8,5 @@ ar rcs $PWD/../../lib/libringstatic.a ring_general.o ring_state.o ring_ext.o rin
 gcc -O2 -rdynamic ring.c -o $PWD/../../bin/ring -L $PWD/../../lib -lring  -I $PWD/../include
 
 cd ../../bin
-sudo ./install.sh
+./install.sh
 cd ../language/src

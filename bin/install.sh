@@ -29,19 +29,19 @@ fi
 
 if [ -f ../lib/libring.so ];
 then
-sudo ln -sf "`pwd`/ring" /usr/bin/ring
+ln -sf "`pwd`/ring" /usr/bin/ring
 
-sudo ln -sf "`pwd`/ring2exe" /usr/bin/ring2exe
+ln -sf "`pwd`/ring2exe" /usr/bin/ring2exe
 
-sudo ln -sf "`pwd`/folder2qrc" /usr/bin/folder2qrc
+ln -sf "`pwd`/folder2qrc" /usr/bin/folder2qrc
 
-sudo ln -sf "`pwd`/ringpm" /usr/bin/ringpm
+ln -sf "`pwd`/ringpm" /usr/bin/ringpm
 
-sudo ln -sf "`pwd`/ringrepl" /usr/bin/ringrepl
+ln -sf "`pwd`/ringrepl" /usr/bin/ringrepl
 
 cd ..
-sudo ln -sf "`pwd`/lib/libring.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring.so" /usr/lib64
+ln -sf "`pwd`/lib/libring.so" /usr/lib
+ln -sf "`pwd`/lib/libring.so" /usr/lib64
 fi
 	
 # Make the RingODBC library ready for use directly
@@ -54,8 +54,8 @@ fi
 
 if [ -f lib/libring_odbc.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_odbc.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_odbc.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_odbc.so" /usr/lib
+ln -sf "`pwd`/lib/libring_odbc.so" /usr/lib64
 fi
 
 # Make the RingMySQL library ready for use directly
@@ -68,8 +68,8 @@ fi
 
 if [ -f lib/libring_mysql.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_mysql.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_mysql.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_mysql.so" /usr/lib
+ln -sf "`pwd`/lib/libring_mysql.so" /usr/lib64
 fi
 
 # Make the RingSQLite library ready for use directly
@@ -82,8 +82,8 @@ fi
 
 if [ -f lib/libring_sqlite.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_sqlite.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_sqlite.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_sqlite.so" /usr/lib
+ln -sf "`pwd`/lib/libring_sqlite.so" /usr/lib64
 fi
 
 # Make the RingInternet library ready for use directly
@@ -96,8 +96,8 @@ fi
 
 if [ -f lib/libring_internet.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_internet.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_internet.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_internet.so" /usr/lib
+ln -sf "`pwd`/lib/libring_internet.so" /usr/lib64
 fi
 
 # Make the RingOpenSSL library ready for use directly
@@ -110,8 +110,8 @@ fi
 
 if [ -f lib/libring_openssl.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_openssl.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_openssl.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_openssl.so" /usr/lib
+ln -sf "`pwd`/lib/libring_openssl.so" /usr/lib64
 fi
 
 # Make the RingAllegro library ready for use directly
@@ -124,8 +124,8 @@ fi
 
 if [ -f lib/libringallegro.so ];
 then
-sudo ln -sf "`pwd`/lib/libringallegro.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libringallegro.so" /usr/lib64
+ln -sf "`pwd`/lib/libringallegro.so" /usr/lib
+ln -sf "`pwd`/lib/libringallegro.so" /usr/lib64
 fi
 
 # Make the RingQt library ready for use directly
@@ -138,8 +138,8 @@ fi
 
 if [ -f lib/libringqt.so ];
 then
-sudo ln -sf "`pwd`/lib/libringqt.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libringqt.so" /usr/lib64
+ln -sf "`pwd`/lib/libringqt.so" /usr/lib
+ln -sf "`pwd`/lib/libringqt.so" /usr/lib64
 fi
 
 # Make the RingQt (Light) library ready for use directly
@@ -152,8 +152,8 @@ fi
 
 if [ -f lib/libringqt_light.so ];
 then
-sudo ln -sf "`pwd`/lib/libringqt_light.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libringqt_light.so" /usr/lib64
+ln -sf "`pwd`/lib/libringqt_light.so" /usr/lib
+ln -sf "`pwd`/lib/libringqt_light.so" /usr/lib64
 fi
 
 # Make the RingLibCurl library ready for use directly
@@ -166,8 +166,8 @@ fi
 
 if [ -f lib/libring_libcurl.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_libcurl.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_libcurl.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_libcurl.so" /usr/lib
+ln -sf "`pwd`/lib/libring_libcurl.so" /usr/lib64
 fi
 
 # Make the RingZipLib library ready for use directly
@@ -180,8 +180,8 @@ fi
 
 if [ -f lib/libring_libzip.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_libzip.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_libzip.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_libzip.so" /usr/lib
+ln -sf "`pwd`/lib/libring_libzip.so" /usr/lib64
 fi
 
 # Make the RingFreeGLUT library ready for use directly
@@ -194,8 +194,8 @@ fi
 
 if [ -f lib/libring_freeglut.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_freeglut.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_freeglut.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_freeglut.so" /usr/lib
+ln -sf "`pwd`/lib/libring_freeglut.so" /usr/lib64
 fi
 
 # Make the RingOpenGL library ready for use directly
@@ -208,8 +208,8 @@ fi
 
 if [ -f lib/libring_opengl11.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl11.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl11.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl11.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl11.so" /usr/lib64
 fi
 
 
@@ -221,8 +221,8 @@ fi
 
 if [ -f lib/libring_opengl12.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl12.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl12.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl12.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl12.so" /usr/lib64
 fi
 
 if [ -f lib/libring_opengl13.dylib ];
@@ -233,8 +233,8 @@ fi
 
 if [ -f lib/libring_opengl13.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl13.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl13.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl13.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl13.so" /usr/lib64
 fi
 
 if [ -f lib/libring_opengl14.dylib ];
@@ -245,8 +245,8 @@ fi
 
 if [ -f lib/libring_opengl14.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl14.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl14.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl14.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl14.so" /usr/lib64
 fi
 
 if [ -f lib/libring_opengl15.dylib ];
@@ -257,8 +257,8 @@ fi
 
 if [ -f lib/libring_opengl15.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl15.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl15.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl15.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl15.so" /usr/lib64
 fi
 
 if [ -f lib/libring_opengl20.dylib ];
@@ -269,8 +269,8 @@ fi
 
 if [ -f lib/libring_opengl20.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl20.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl20.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl20.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl20.so" /usr/lib64
 fi
 
 if [ -f lib/libring_opengl21.dylib ];
@@ -281,8 +281,8 @@ fi
 
 if [ -f lib/libring_opengl21.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl21.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl21.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl21.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl21.so" /usr/lib64
 fi
 
 if [ -f lib/libring_opengl30.dylib ];
@@ -293,8 +293,8 @@ fi
 
 if [ -f lib/libring_opengl30.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl30.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl30.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl30.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl30.so" /usr/lib64
 fi
 
 if [ -f lib/libring_opengl31.dylib ];
@@ -305,8 +305,8 @@ fi
 
 if [ -f lib/libring_opengl31.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl31.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl31.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl31.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl31.so" /usr/lib64
 fi
 
 if [ -f lib/libring_opengl32.dylib ];
@@ -317,8 +317,8 @@ fi
 
 if [ -f lib/libring_opengl32.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl32.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl32.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl32.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl32.so" /usr/lib64
 fi
 
 if [ -f lib/libring_opengl33.dylib ];
@@ -329,8 +329,8 @@ fi
 
 if [ -f lib/libring_opengl33.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl33.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl33.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl33.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl33.so" /usr/lib64
 fi
 
 if [ -f lib/libring_opengl40.dylib ];
@@ -341,8 +341,8 @@ fi
 
 if [ -f lib/libring_opengl40.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl40.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl40.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl40.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl40.so" /usr/lib64
 fi
 
 if [ -f lib/libring_opengl41.dylib ];
@@ -353,8 +353,8 @@ fi
 
 if [ -f lib/libring_opengl41.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl41.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl41.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl41.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl41.so" /usr/lib64
 fi
 
 if [ -f lib/libring_opengl42.dylib ];
@@ -365,8 +365,8 @@ fi
 
 if [ -f lib/libring_opengl42.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl42.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl42.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl42.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl42.so" /usr/lib64
 fi
 
 if [ -f lib/libring_opengl43.dylib ];
@@ -377,8 +377,8 @@ fi
 
 if [ -f lib/libring_opengl43.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl43.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl43.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl43.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl43.so" /usr/lib64
 fi
 
 if [ -f lib/libring_opengl44.dylib ];
@@ -389,8 +389,8 @@ fi
 
 if [ -f lib/libring_opengl44.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl44.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl44.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl44.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl44.so" /usr/lib64
 fi
 
 if [ -f lib/libring_opengl45.dylib ];
@@ -401,8 +401,8 @@ fi
 
 if [ -f lib/libring_opengl45.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl45.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl45.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl45.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl45.so" /usr/lib64
 fi
 
 if [ -f lib/libring_opengl46.dylib ];
@@ -413,8 +413,8 @@ fi
 
 if [ -f lib/libring_opengl46.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_opengl46.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_opengl46.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_opengl46.so" /usr/lib
+ln -sf "`pwd`/lib/libring_opengl46.so" /usr/lib64
 fi
 
 # Make the RingMurmurHash library ready for use directly
@@ -427,8 +427,8 @@ fi
 
 if [ -f lib/libring_murmurhash.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_murmurhash.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_murmurhash.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_murmurhash.so" /usr/lib
+ln -sf "`pwd`/lib/libring_murmurhash.so" /usr/lib64
 fi
 
 # Make the RingLibuv library ready for use directly
@@ -441,8 +441,8 @@ fi
 
 if [ -f lib/libring_uv.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_uv.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_uv.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_uv.so" /usr/lib
+ln -sf "`pwd`/lib/libring_uv.so" /usr/lib64
 fi
 
 # Make the RingPostgreSQL library ready for use directly
@@ -455,8 +455,8 @@ fi
 
 if [ -f lib/libring_pgsql.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_pgsql.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_pgsql.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_pgsql.so" /usr/lib
+ln -sf "`pwd`/lib/libring_pgsql.so" /usr/lib64
 fi
 
 # Make the RingConsoleColors library ready for use directly
@@ -469,8 +469,8 @@ fi
 
 if [ -f lib/libring_consolecolors.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_consolecolors.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_consolecolors.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_consolecolors.so" /usr/lib
+ln -sf "`pwd`/lib/libring_consolecolors.so" /usr/lib64
 fi
 
 # Make the RingLibSDL library ready for use directly
@@ -483,8 +483,8 @@ fi
 
 if [ -f lib/libringsdl.so ];
 then
-sudo ln -sf "`pwd`/lib/libringsdl.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libringsdl.so" /usr/lib64
+ln -sf "`pwd`/lib/libringsdl.so" /usr/lib
+ln -sf "`pwd`/lib/libringsdl.so" /usr/lib64
 fi
 
 # Make the RingRayLib library ready for use directly
@@ -499,10 +499,10 @@ fi
 
 if [ -f lib/libringraylib.so ];
 then
-sudo ln -sf "`pwd`/lib/libringraylib.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libringraylib.so" /usr/lib64
-sudo cp extensions/ringraylib/src/linux_raylib-2.5/lib/libraylib.so.* /usr/lib
-sudo cp extensions/ringraylib/src/linux_raylib-2.5/lib/libraylib.so.* /usr/lib64
+ln -sf "`pwd`/lib/libringraylib.so" /usr/lib
+ln -sf "`pwd`/lib/libringraylib.so" /usr/lib64
+cp extensions/ringraylib/src/linux_raylib-2.5/lib/libraylib.so.* /usr/lib
+cp extensions/ringraylib/src/linux_raylib-2.5/lib/libraylib.so.* /usr/lib64
 fi
 
 # Make the RingSockets library ready for use directly
@@ -515,8 +515,8 @@ fi
 
 if [ -f lib/libring_sockets.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_sockets.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_sockets.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_sockets.so" /usr/lib
+ln -sf "`pwd`/lib/libring_sockets.so" /usr/lib64
 fi
 
 # Make the RingThreads library ready for use directly
@@ -529,8 +529,8 @@ fi
 
 if [ -f lib/libring_threads.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_threads.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_threads.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_threads.so" /usr/lib
+ln -sf "`pwd`/lib/libring_threads.so" /usr/lib64
 fi
 
 # Make the RingLibUI library ready for use directly
@@ -545,10 +545,10 @@ fi
 
 if [ -f lib/libring_libui.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_libui.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_libui.so" /usr/lib64
-sudo cp extensions/ringlibui/linux/libui.so.* /usr/lib
-sudo cp extensions/ringlibui/linux/libui.so.* /usr/lib64
+ln -sf "`pwd`/lib/libring_libui.so" /usr/lib
+ln -sf "`pwd`/lib/libring_libui.so" /usr/lib64
+cp extensions/ringlibui/linux/libui.so.* /usr/lib
+cp extensions/ringlibui/linux/libui.so.* /usr/lib64
 fi
 
 # Make the RingCJSON library ready for use directly
@@ -561,8 +561,8 @@ fi
 
 if [ -f lib/libring_cjson.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_cjson.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_cjson.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_cjson.so" /usr/lib
+ln -sf "`pwd`/lib/libring_cjson.so" /usr/lib64
 fi
 
 # Make the RingHTTPLib library ready for use directly
@@ -575,6 +575,6 @@ fi
 
 if [ -f lib/libring_httplib.so ];
 then
-sudo ln -sf "`pwd`/lib/libring_httplib.so" /usr/lib
-sudo ln -sf "`pwd`/lib/libring_httplib.so" /usr/lib64
+ln -sf "`pwd`/lib/libring_httplib.so" /usr/lib
+ln -sf "`pwd`/lib/libring_httplib.so" /usr/lib64
 fi

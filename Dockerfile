@@ -6,6 +6,4 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y g++ g++-multilib unixodbc 
 ADD . /ring
 WORKDIR /ring/language/src
 RUN ./buildgcc.sh
-WORKDIR /ring/bin
-RUN .install.sh
 
